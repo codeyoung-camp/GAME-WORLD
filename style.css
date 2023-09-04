@@ -1,0 +1,79 @@
+body{
+    background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg);
+}header{
+    font-size: 50px;    
+    color: deepskyblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}#game1{
+    width: 150px;
+    height: 150px;
+    background-color: beige;
+    border-radius: 12px;
+}
+img{
+    padding-top: 12px;
+}
+div{
+    display: inline-block;
+    float: left;
+    margin:5px
+}
+#cat{
+    font-size: 50px;    
+    color: deepskyblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1,#cat{
+    
+    color:#8532a8;
+    animation-name:hub; 
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position:relative
+}
+
+@keyframes hub{
+    0%{
+        color:crimson ;
+        left:0px;
+        top:0px;
+    }
+    10%{
+        color:green ;
+    }
+ 20%{
+        color:aqua ;
+    }
+    30%{
+        color:blue ;
+    }
+    40%{
+        color:black ;
+    }
+50%{
+        color:aquamarine ;
+        left:0px;
+        top:50px;
+    }
+60%{
+        color:red ;
+    }
+70%{
+        color:cyan ;
+    }
+80%{
+        color:lime ;
+    }
+90%{
+        color:violet ;
+    }
+       100%{
+        color: #37b8bd;
+        left:0px;
+        top:0px;
+    }
+
+
+
+    
+}
